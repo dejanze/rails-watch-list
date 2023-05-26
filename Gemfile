@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
+gem 'pry-byebug'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 
@@ -33,6 +35,8 @@ gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
 
 gem "dotenv-rails"
+
+gem "cloudinary"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 

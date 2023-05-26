@@ -9,9 +9,11 @@ class BookmarksController < ApplicationController
   def create
     @bookmark = Bookmark.new(bookmark_params)
     @bookmark.list = @list
-    if @bookmark.save
+    # binding.pry
+    if @bookmark.save!
       redirect_to list_path(@list)
     else
+      # binding.pry
       render :new
     end
   end

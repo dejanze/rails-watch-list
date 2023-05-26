@@ -8,7 +8,7 @@ puts "seeding db..."
 Movie.create(title: "Dune", overview: "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.", 
             poster_url: "https://de.web.img3.acsta.net/pictures/21/08/11/11/38/5271955.jpg", 
             rating: 10)
-Movie.create(title: "Blade Runner", overview: "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.", 
+Movie.create(title: "Blade Runner 2049", overview: "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.", 
             poster_url: "https://de.web.img3.acsta.net/pictures/17/08/30/10/16/406748.jpg", 
             rating: 10)
 Movie.create(title: "Rushmore", overview: "A teenager at Rushmore Academy falls for a much older teacher and befriends a middle-aged industrialist. Later, he finds out that his love interest and his friend are having an affair, which prompts him to begin a vendetta.", 
